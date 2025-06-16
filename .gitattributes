@@ -1,0 +1,23 @@
+# Ignore common Unity asset files and generated files
+*.unity linguist-generated
+*.prefab linguist-generated
+*.mat linguist-generated
+*.asset linguist-generated
+*.meta linguist-generated
+*.controller linguist-generated
+*.mixer linguist-generated
+*.mask linguist-generated
+*.anim linguist-generated
+*.flare linguist-generated
+*.physicmaterial linguist-generated
+*.playable linguist-generated
+*.rendertexture linguist-generated
+*.guiskin linguist-generated
+*.fontsettings linguist-generated
+
+# Ignore ShaderLab files from language stats
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false # For include files used by shaders
+
+# Ensure C# files are detected as C# (usually not necessary for .cs, but good for explicit control)
+*.cs linguist-language=C#
